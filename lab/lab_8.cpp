@@ -86,7 +86,7 @@ int main() {
             std::cout << "Write the coordinates of A, B and C\n";
             std::cin >> x >> y >> x1 >> yone >> x2 >> y2;
             std::cout << "Length of AB is = " << leng(x, y, x1, yone) << "\n";
-            std::cout << "Length of BC is = " << leng(x1, yone, x2, y2) << "\n";  // Fix for BC
+            std::cout << "Length of BC is = " << leng(x1, yone, x2, y2) << "\n";  
             std::cout << "Length of AC is = " << leng(x, y, x2, y2) << "\n";
             break;
         case 0:
